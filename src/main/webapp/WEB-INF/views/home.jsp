@@ -8,12 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Brads simple REST service</title>
+    <title>Rest service for storing/supplying gamer statistics</title>
 </head>
 <body>
-<h3>This webservice simple maintains a databaes with records consisting of a key (integer) and string value</h3>
+<h3></h3>
 <p>
-    The service demonstrates the usage of rest services to add, display and remove records
+    The resources here are in progress. Check back soon!
 </p>
 </body>
 </html>
