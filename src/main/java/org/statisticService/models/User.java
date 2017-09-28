@@ -1,10 +1,21 @@
-package models;
+package org.statisticService.models;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import org.hibernate.validator.constraints.NotEmpty;
+
+@Entity
 public class User {
 
+    @Id
+    @GeneratedValue
     private long userId;
+    @NotEmpty (message = "The user name must not be null.")
     private String userName;
+    @NotEmpty (message = "The email address must not be null.")
     private String email;
+    @NotEmpty (message = "The password must not be null.")
     private String password;
 
     public User() {

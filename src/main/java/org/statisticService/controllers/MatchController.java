@@ -1,7 +1,7 @@
-package controllers;
+package org.statisticService.controllers;
 
-import dao.impls.MatchDaoImpl;
-import dao.impls.MatchStatisticDaoImpl;
+import org.statisticService.dao.impls.MatchDaoImpl;
+import org.statisticService.dao.impls.MatchStatisticDaoImpl;
 import org.springframework.stereotype.Controller;
 
 @Controller
